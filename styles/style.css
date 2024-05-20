@@ -15,11 +15,83 @@ common shared classes
 ---------------*******/
 .text-primary
 {
-    color:#FB9D5C;
+    color:#fb9d5c;
+}
+.text-white
+{
+    color:#fff;
 }
 .d-flex
 {
     display:flex;
 }
+.align-items
+{
+    align-items:center;
+}
+.justify-content
+{
+    justify-content:space-between;
+}
+
+/* ?-------------------> 
+?-header starts from here 
+!--------------------> */
+.header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)),url(../images/banner-background.jpg);
+    height:129vh;
+    background-size: cover;
+    background-position:center;
+}
+ /** nav starts here  **/
+ nav
+ {
+    margin:0 200px;
+    padding-top:30px;
+}
+ nav li
+ {
+    list-style:none;
+    margin-right:50px;
+ }
+ nav li a
+ {
+    text-decoration: none;
+    font-size:20px;
+ }
+
+ /* banner section starts */
+
+ .banner-container{
+    justify-content:space-around;
+ }
+ .banner-content
+ {
+     text-align: center;
+ }
+ .banner-content > h5
+ {
+    font-size:20px;
+    margin-bottom:10px;
+ }
+ .banner-content > h1
+ {
+    font-size:45px;
+    font-weight: 700;
+    margin-bottom:10px;
+    font-style:italic;
+ }
+ .btn-react
+ {
+    background-color:#FB9D5C;
+    border:none;
+    padding:15px 25px;
+    border-radius:3px;
+    
+ }
+
+
+
 
 
