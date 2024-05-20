@@ -156,5 +156,43 @@ html, body
     line-height:1.5;
  }
 
+  /** Hire us section starts **/
+.hire-us-section{
+      width:90%;
+      margin:auto;
+      margin-top: 40px;
+}
+.hire-content
+{    
+    width:50%;
+}
+.hire-btn
+{
+    background-color: #31D2F2;
+    padding:15px 20px;
+    border:none;
+    border-radius:3px;
+}
+.hire-content .hire-subtitle-1
+{
+    line-height:1.5;
+    margin:20px 0;
+}
+.hire-content .hire-subtitle-2
+{
+    line-height:1.5;
+    margin-bottom:20px;
+}
+.hire-content > div h4
+{
+ font-size:30px;
+ margin-left:20px;
+}
+.hire-content h4
+{
+ font-size:30px;
+ margin-top:20px;
+}
 
+/** footer section starts **/
 
