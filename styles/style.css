@@ -13,6 +13,10 @@ html, body
 /*! ------------*******?/
 ---common shared classes 
 /*!---------------*******/
+.text-gray
+{
+    color:#c0baba;
+}
 .text-primary
 {
     color:#fb9d5c;
@@ -28,6 +32,10 @@ html, body
 .text-size-secondary
 {
     font-size:20px;
+}
+.text-size-third
+{
+    font-size:30px;
 }
 .text-center
 {
@@ -196,3 +204,55 @@ html, body
 
 /** footer section starts **/
 
+.footer-container
+{
+    height:400px;
+    background-color: black;
+    padding:80px 50px;
+}
+.footer-card > div img
+{
+    width:12%;
+    margin-right:10px;
+}
+.footer-card
+{
+    width:20%;
+}
+.footer-card input
+{
+    padding:15px;
+    border:none;
+}
+.footer-card p
+{
+    line-height:1.5;
+    margin-bottom: 15px;
+}
+.footer-content
+{
+    width:80%;
+    margin:auto;
+    padding-bottom:20px;
+}
+.footer-card .input-field
+{
+   margin-top:10px;
+}
+.footer-card-1
+{
+    width:20%;
+}
+.footer-card-1 h4
+{
+    margin-bottom: 15px;
+}
+.footer-card-1 ul li
+{
+    margin-bottom: 5px;
+    list-style-type:none;
+}
+.address > div
+{
+    margin-bottom: 10px;
+}
