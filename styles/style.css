@@ -10,9 +10,9 @@ html, body
     height: 100%;
 }
 
-/* ------------******
-common shared classes 
----------------*******/
+/*! ------------*******?/
+---common shared classes 
+/*!---------------*******/
 .text-primary
 {
     color:#fb9d5c;
@@ -20,6 +20,18 @@ common shared classes
 .text-white
 {
     color:#fff;
+}
+.text-size-primary
+{
+    font-size:45px;
+}
+.text-size-secondary
+{
+    font-size:20px;
+}
+.text-center
+{
+    text-align: center;
 }
 .d-flex
 {
@@ -32,6 +44,10 @@ common shared classes
 .justify-content
 {
     justify-content:space-between;
+}
+.justify-around
+{
+    justify-content:space-around;
 }
 
 /* ?-------------------> 
@@ -58,26 +74,19 @@ common shared classes
  nav li a
  {
     text-decoration: none;
-    font-size:20px;
  }
 
- /* banner section starts */
+ /** banner section starts **/
 
  .banner-container{
     justify-content:space-around;
  }
- .banner-content
- {
-     text-align: center;
- }
  .banner-content > h5
  {
-    font-size:20px;
     margin-bottom:10px;
  }
  .banner-content > h1
  {
-    font-size:45px;
     font-weight: 700;
     margin-bottom:10px;
     font-style:italic;
@@ -88,10 +97,64 @@ common shared classes
     border:none;
     padding:15px 25px;
     border-radius:3px;
-    
  }
 
+ .logo-container
+ {
+    width:70%;
+    margin:auto;
+    padding : 40px 0;
+ }
 
+ /* ?-------------------> 
+*    header ends here   *
+!--------------------> */
+
+/* ?-------------------> 
+?-main starts from here 
+!--------------------> */
+
+ /** our services section starts **/
+.services-section
+{
+    margin-top:100px;
+}
+.service-title
+{
+    margin-bottom: 15px;
+}
+ .services-section > p
+ {
+    font-size:18px;
+    line-height:1.5;
+ }
+ .services-card-container
+ {
+    padding:60px 40px;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap:50px;
+    margin:0 auto;
+    width:80%;
+ }
+ .services-card-container .card-title
+ {
+    margin:10px 0;
+    font-size:18px;
+    font-weight: 600;
+ }
+ .service-card
+ {
+    border:1px solid gray;
+    width:300px;
+    text-align: center;
+    padding:20px 10px;
+ }
+ .service-card > p
+ {
+    margin-top: 20px;
+    line-height:1.5;
+ }
 
 
 
